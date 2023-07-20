@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Oray - Orayan</h1>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div class="btn">
+        <button id="pauseBtn">Pause</button>
+        <button id="playBtn">Play</button>
+    </div>
+    <div class="popup_gameover">
+        <h2>kamu kalah</h2>
+        <h4 class="skor">skor kamu: <span></span></h4>
+        <button onclick="ulangi()">Ulangi</button>
+    </div>
+    <script src="./snake.js"></script>
+    <script>
+        function ulangi() {
+            location.reload()
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background: red;
+  border: 3px solid black;
+  padding: 15px 25px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: -3px 5px 0px 1px black;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+canvas {
+  background: red;
+  padding: 25px;
+  border: solid;
+  border-radius: 15px;
+  box-shadow: -5px 8px 0px 1px black;
+}
+
+.btn {
+  margin: 45px 0;
+}
+
+.btn button {
+  transition: 0.3s;
+  background: red;
+  border: none;
+  padding: 15px 25px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: -3px 5px 0px 1px black;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.btn button:focus {
+  transform: translateX(-5px) translateY(5px);
+  box-shadow: none;
+}
+
+.popup_gameover {
+  position: absolute;
+  color: #fff;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 50px;
+  border-radius: 15px;
+  visibility: hidden;
+}
+.popup_gameover button {
+  transition: 0.3s;
+  background: red;
+  border: none;
+  padding: 15px 25px;
+  color: #fff;
+  font-weight: 700;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: -3px 5px 0px 1px black;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.popup_gameover.active {
+  visibility: visible;
+}
