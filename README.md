@@ -1,6 +1,8 @@
 let's try game snake
 https://asep38.github.io/game-snake.github.io/
 
+<img src="https://user-images.githubusercontent.com/112145050/255480482-4206a778-9452-41cf-8663-eebdabaf15fe.png" />
+
 # Deskripsi
 Game Snake adalah permainan video klasik yang sederhana namun adiktif, di mana pemain mengendalikan seekor ular untuk mengumpulkan makanan (apel) yang tersebar di area permainan. Setiap kali ular memakan apel, panjangnya akan bertambah. Tujuan utama pemain adalah bertahan selama mungkin dan mencetak skor tertinggi dengan mengendalikan gerakan ular secara bijaksana.
 
